@@ -333,8 +333,10 @@
           ScrollOffset: 50
         });
        
-       const carousel = document.querySelectorAll(.'carousel');
-       M.Carousel.init(carousel);
+       document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
       </script>
 
     </body>
