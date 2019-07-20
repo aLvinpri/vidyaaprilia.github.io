@@ -20,3 +20,11 @@ opacity: 0.5;
 section,footer {
 	padding: 20px 0; 
 }
+
+.zoom-effect {  
+  position: relative;
+  width: 100%;
+  height: 360px;
+  margin: 0 auto;
+  overflow: hidden;  
+}
