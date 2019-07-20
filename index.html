@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
       <!--Import Google Icon Font-->
@@ -17,7 +17,7 @@
     <body id="home" class="scrollspy">
       <!--navbar-->
        <div class="navbar-fixed">
-    <nav class="blue">
+    <nav class="blue darken-3">
       <div class="container">
       <div class="nav-wrapper">
         <a href="#home" class="brand-logo">ONE & ONE</a>
@@ -43,11 +43,12 @@
   </ul>
 
   <!---Slider-->
+  <section>
   <div class="slider">
     <ul class="slides">
       <li>
         <img src="img/slider/1.png">
-        <div class="caption center-align">
+        <div>
           <h3 class="black-text"></h3>
           <h5 class="grey-text text-darken-3"></h5>
         </div>
@@ -55,26 +56,27 @@
       <li>
         <img src="img/slider/2.jpg">
         <div class="caption center-align">
-          <h3 class="black-text">ONE & ONE KONESIA</h3>
-          <h5 class="grey-text text-darken-4">Your Best Partner.</h5>
+          <h3 class="card-panel black-text">ONE & ONE KONESIA</h3>
+          <h5 class="card-panel grey-text text-darken-4">Your Best Partner.</h5>
         </div>
       </li>
       <li>
         <img src="img/slider/3.jpg">
         <div class="caption left-align">
-          <h3 class="white-text">ONE & ONE KONESIA</h3>
-          <h5 class="white-text">Your Best Partner.</h5>
+          <h3 class="card-panel black-text">ONE & ONE KONESIA</h3>
+          <h5 class="card-panel black-text">Your Best Partner.</h5>
         </div>
       </li>
       <li>
         <img src="img/slider/4.jpg">
         <div class="caption right-align">
-          <h3 class="white-text">ONE & ONE KONESIA</h3>
-          <h5 class="white-text">Your Best Partner.</h5>
+          <h3 class="card-panel black-text">ONE & ONE KONESIA</h3>
+          <h5 class="card-panel black-text">Your Best Partner.</h5>
         </div>
       </li>
     </ul>
   </div>
+  </section>
 
 <!--About Us-->
 <selection id="about" class="about scrollspy">
@@ -120,10 +122,10 @@
     <div class="row">
       <h3 class="light center grey-text text-darken-4">Field Of Bussines</h3>
       <div class="col m4 s12">
-        <div class="card-panel">
-          <i class="material-icons medium center">pan_tool</i>
-          <h5 class="center">Consumables</h5>
-          <p>1.  GLOVES (Cotton, Coating, Palm Fit Gloves, Chemical etc)<br/>
+        <div class="card-panel center">
+          <i class="material-icons medium">pan_tool</i>
+          <h5>Consumables</h5>
+          <p class="left-align">1.  GLOVES (Cotton, Coating, Palm Fit Gloves, Chemical etc)<br/>
              2.  MASK, ARM WARMERS (Cotton, Carbon etc - Customize)<br/>
              3.  TAPE (OPP, Isolasi, Marking, Masking)<br/>
              4.  Paint & Brush<br/>
@@ -138,7 +140,7 @@
         <div class="card-panel center">
           <i class="material-icons medium">settings</i>
           <h5>Spare Part</h5>
-          <p>1. BEARING / SEAL<br/>
+          <p class="left-align">1. BEARING / SEAL<br/>
              2. VAN BELT<br/>
              3. GEAR BOX / MOTOR<br/>
              4. VALVE / FILTER<br/>
@@ -195,7 +197,7 @@
         <div class="card-panel center">
           <i class="material-icons medium">timer</i>
           <h5>TOOL & GAUGE</h5>
-          <p>1. DRILL, TAP, END MILL<br/>
+          <p class="left-align">1. DRILL, TAP, END MILL<br/>
              2. MACHINE TOOL<br/>
              3. HAND TOOL<br/>
              4. PRESSURE SENSOR & GAUGE<br/>
@@ -208,7 +210,7 @@
         <div class="card-panel center">
           <i class="material-icons medium">person</i>
           <h5>Safety Supplies</h5>
-          <p>1. SAFETY SHOES<br/>
+          <p class="left-align">1. SAFETY SHOES<br/>
              2. SAFETY HELMET<br/>
              3. SAFETY VEST<br/>
              4. SAFETY GLOVES<br/>
@@ -223,7 +225,7 @@
         <div class="card-panel center">
           <i class="material-icons medium">view_headline</i>
           <h5>STEEL</h5>
-          <p>1. SQUARE PIPE<br/>
+          <p class="left-align">1. SQUARE PIPE<br/>
              2. CNP STEEL<br/>
              3. STEEL & BRASS PLATE<br/>
              4. STEEL BAR (ROUND, SQUARE)<br/>
@@ -261,7 +263,7 @@
           <h5>Email</h5>
           <p>lkj.onekonesia@gmail.com</p>
           <h5>Telepon</h5>
-          <p>021 8273 3683</p>
+          <p>021 8273 3683 atau 021 8275 5084</p>
         </div>
         <ul class="collection with-header">
           <li class="collection-header">Our Office</li>
@@ -272,7 +274,7 @@
         </ul>
       </div>
       <div class="col m7 s12">
-        <form>
+        <form action="https://formspree.io/fidyantia26@gmail.com" method="POST" />
           <div class="card-panel">
             <h5>Please fill out this form</h5>
             <div class="input-field">
@@ -281,7 +283,6 @@
             </div>
             <div class="input-field">
               <input type="text" name="email" id="email">
-
               <label for="email"><i class="material-icons">email</i>Email</label>
             </div>
             <div class="input-field">
@@ -296,7 +297,7 @@
               <input type="text" name="pesan" id="pesan">
               <label for="pesan"><i class="material-icons">insert_comment</i>Messages</label>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button class="btn waves-effect waves-light" type="submit" name="action" value="send">Submit
             <i class="material-icons right">send</i>
           </button>
           </div>
@@ -316,7 +317,6 @@
       <script>
         const sidenav = document.querySelectorAll('.sidenav');
         M.Sidenav.init(sidenav);
-
         const slider = document.querySelectorAll('.slider');
         M.Slider.init(slider,{
           indicators: false,
@@ -324,10 +324,8 @@
           transition: 600,
           interval: 3000
         });
-
         const parallax = document.querySelectorAll('.parallax');
         M.Parallax.init(parallax);
-
         const scroll = document.querySelectorAll('.scrollspy');
         M.ScrollSpy.init(scroll,{
           ScrollOffset: 50
